@@ -44,8 +44,8 @@ struct WebView: UIViewRepresentable {
         // Enable swipe navigation
         webView.allowsBackForwardNavigationGestures = true
         
-        // Set custom user agent to mimic Safari on iPhone to ensure Voice Mode works
-        webView.customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15"
+        // Set custom user agent to mimic Safari on Mac to ensure Voice Mode works
+        webView.customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.7 Safari/605.1.15"
         
         return webView
     }
