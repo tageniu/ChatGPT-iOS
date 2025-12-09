@@ -12,7 +12,7 @@ A native iOS wrapper for [ChatGPT](https://chatgpt.com), built with SwiftUI and 
 ## Requirements
 
 - iOS 15.0+
-- Xcode 14.0+ (for building)
+- Xcode 14.0+, ldid (for building)
 
 > [!NOTE]
 > Although iOS 15.0 is listed as the minimum version, the support is not guaranteed, and the app may not work as expected. iOS 15.6+ works well based on my testing.
